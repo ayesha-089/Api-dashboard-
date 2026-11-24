@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Ayesha Samu",
+        "email": "ayesha@example.com",
+        "department": "Software Engineering",
+        "city": "Hyderabad",
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "name": "Hamza Gull",
+        "email": "hamza@example.com",
+        "department": "Computer Science",
+        "city": "Karachi",
+        "status": "Active"
+    },
+    {
+        "id": 3,
+        "name": "Sara Ahmed",
+        "email": "sara@example.com",
+        "department": "Information Technology",
+        "city": "Jamshoro",
+        "status": "Inactive"
+    },
+    {
+        "id": 4,
+        "name": "Ali Raza",
+        "email": "ali@example.com",
+        "department": "Software Engineering",
+        "city": "Hyderabad",
+        "status": "Active"
+    },
+    {
+        "id": 5,
+        "name": "Hina Malik",
+        "email": "hina@example.com",
+        "department": "Computer Science",
+        "city": "Sukkur",
+        "status": "Active"
+    },
+    {
+        "id": 6,
+        "name": "Usman Shah",
+        "email": "usman@example.com",
+        "department": "Information Technology",
+        "city": "Karachi",
+        "status": "Inactive"
+    },
+    {
+        "id": 7,
+        "name": "Mehak Khan",
+        "email": "mehak@example.com",
+        "department": "Software Engineering",
+        "city": "Larkana",
+        "status": "Active"
+    },
+    {
+        "id": 8,
+        "name": "Zain Ali",
+        "email": "zain@example.com",
+        "department": "Computer Science",
+        "city": "Hyderabad",
+        "status": "Active"
+    },
+    {
+        "id": 9,
+        "name": "Noor Fatima",
+        "email": "noor@example.com",
+        "department": "Information Technology",
+        "city": "Thatta",
+        "status": "Inactive"
+    },
+    {
+        "id": 10,
+        "name": "Bilal Ahmed",
+        "email": "bilal@example.com",
+        "department": "Software Engineering",
+        "city": "Jamshoro",
+        "status": "Active"
+    },
+    {
+        "id": 11,
+        "name": "Maham Noor",
+        "email": "maham@example.com",
+        "department": "Computer Science",
+        "city": "Karachi",
+        "status": "Active"
+    },
+    {
+        "id": 12,
+        "name": "Danish Iqbal",
+        "email": "danish@example.com",
+        "department": "Information Technology",
+        "city": "Hyderabad",
+        "status": "Inactive"
+    }
+]
