@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 8 | API Dashboard</title><link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="js/app.js" defer></script></head>
+<body><header><div class="brand"><span class="logo">API</span><div><small>WEB TECHNOLOGIES · LAB 08</small><h1>API Dashboard</h1></div></div><span class="tag">JSON + AJAX + Fetch</span></header>
+<main><section class="intro"><div><small>STUDENT RECORDS</small><h2>Dashboard Overview</h2><p>Load sample JSON records using Fetch API or jQuery AJAX. Search, filter, and explore the response.</p></div><div class="symbol">⌘</div></section>
+<section class="panel"><div class="toolbar"><label>Request method<select id="request-method"><option value="fetch">Fetch API</option><option value="jquery">jQuery AJAX</option></select></label><button id="load-btn">Load Data</button><button id="refresh-btn" class="light">↻ Refresh</button></div>
+<div class="filters"><label>Search records<input id="search-input" type="search" placeholder="Search name, email, city..."></label>
+<label>Department<select id="department-filter"><option value="all">All departments</option><option>Software Engineering</option><option>Computer Science</option><option>Information Technology</option></select></label>
+<label>Status<select id="status-filter"><option value="all">All statuses</option><option>Active</option><option>Inactive</option></select></label></div></section>
+<section class="stats"><article><span>Total Records</span><strong id="total-count">—</strong><small>Loaded from JSON</small></article><article><span>Active</span><strong id="active-count">—</strong><small>Active records</small></article><article><span>Inactive</span><strong id="inactive-count">—</strong><small>Inactive records</small></article><article><span>Last Updated</span><strong id="last-updated" class="time">Not loaded</strong><small>Latest request time</small></article></section>
+<section class="panel results"><div class="heading"><div><small>API RESPONSE</small><h2>Student Records</h2></div><span id="result-count" class="pill">0 records</span></div>
+<div id="loading-state" class="state" hidden><i class="spinner"></i><b>Loading data...</b><span>Please wait while the request is processed.</span></div>
+<div id="error-state" class="state error" role="alert" hidden><b>Unable to load data</b><span id="error-message">Please try again.</span><button id="retry-btn">Try Again</button></div>
+<div id="empty-state" class="state" hidden><b>No records found</b><span>Try changing your search or filters.</span></div>
+<div id="records-container" class="records" aria-live="polite"></div>
+<div class="pagination"><span id="page-info">Page 0 of 0</span><div><button id="prev-btn" class="light" disabled>← Previous</button><button id="next-btn" class="light" disabled>Next →</button></div></div></section>
+<section class="panel concepts"><small>LAB CONCEPTS</small><h2>How this dashboard works</h2><div class="concept-grid"><article><b>01 · JSON</b><h3>Structured data</h3><p>Stores sample student records in an array of objects.</p></article><article><b>02 · Fetch API</b><h3>Modern request</h3><p>Uses fetch(), async/await, and response.json().</p></article><article><b>03 · jQuery AJAX</b><h3>AJAX request</h3><p>Uses $.ajax() to request and receive JSON asynchronously.</p></article></div><p class="note"><b>DevTools practice:</b> Open F12 → Network → Fetch/XHR. Load data and inspect the request and Response tab.</p></section></main>
+<footer><span>Lab 8 — JSON + jQuery + AJAX/Fetch</span><span>Sample data for educational use</span></footer></body></html>
